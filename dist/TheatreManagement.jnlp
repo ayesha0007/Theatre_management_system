@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TheatreManagement.jnlp">
+  <information>
+    <title>TheatreManagement</title>
+    <vendor>World gate computer</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TheatreManagement.jar" size="8777493" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="800" height="600" main-class="mainpkg.MainApplication"  name="TheatreManagement" />
+  <update check="always"/>
+</jnlp>
